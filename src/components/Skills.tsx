@@ -7,22 +7,22 @@ const Skills = () => {
     {
       icon: Code,
       title: "Programming & Frameworks",
-      skills: ["C#", ".NET Core", "JavaScript", "TypeScript", "React", "Node.js", "Python"]
+      skills: ["C#", ".NET", "Python", "JavaScript", "React", "Node.js"]
     },
     {
       icon: Cloud,
       title: "Cloud & DevOps",
-      skills: ["Microsoft Azure", "Microservices", "API Gateway", "Serverless", "CI/CD", "Docker"]
+      skills: ["Microsoft Azure", "Azure DevOps", "CI/CD", "REST API", "Microservices", "Docker", "Serverless", ]
     },
     {
       icon: Database,
       title: "Data & Storage",
-      skills: ["PostgreSQL", "SQL Server", "Elasticsearch", "Redis", "Data Analysis"]
+      skills: ["SQL Server", "Azure SQL", "PostgreSQL", "Elasticsearch", "Redis"]
     },
     {
       icon: Brain,
       title: "AI & Machine Learning",
-      skills: ["Machine Learning", "Neural Networks", "Linear Regression", "LLMs", "Data Visualization"]
+      skills: ["Neural Networks", "Linear Regression", "LLMs", "Data Visualization"]
     }
   ];
 

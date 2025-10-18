@@ -18,30 +18,31 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
           {/* Greeting */}
           <div className="space-y-2">
-            <p className="text-muted-foreground text-lg">¡Hola! I'm</p>
+            <p className="text-muted-foreground text-lg">¡Hi! I'm</p>
             <h1 className="text-5xl md:text-7xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-              Elias Daniel Sanchez Lopez
+              Elias Daniel Sanchez
             </h1>
           </div>
 
           {/* Title & Description */}
           <div className="space-y-4">
             <h2 className="text-2xl md:text-3xl text-foreground/90">
+              Full-Stack Developer
+              <span className="text-primary"> · </span>
               PhD Student in Computer Science 
               <span className="text-primary"> · </span>
-              AI Researcher 
-              <span className="text-primary"> · </span>
-              Full-Stack Developer
+              AI Enthusiast 
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Specializing in Artificial Intelligence, Machine Learning, and Cloud Computing. 
+              Specializing in Software Development, Cloud Computing, and NOW... in Artificial Intelligence, Machine Learning. 
+              <br></br> 
               Building intelligent systems that make a difference.
             </p>
           </div>
 
           {/* Location & Contact */}
           <div className="flex items-center justify-center gap-4 text-muted-foreground">
-            <span>📍 Albany, NY</span>
+            <span>💼 UST </span>
             <span className="text-primary">•</span>
             <span>🎓 University at Albany, SUNY</span>
           </div>
@@ -75,7 +76,7 @@ const Hero = () => {
               <Linkedin className="w-5 h-5" />
             </a>
             <a
-              href="https://github.com/eliasdsanchez"
+              href="https://github.com/develiasdaniel"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-lg bg-card/50 border border-border hover:bg-card hover:border-primary/50 transition-all duration-300 hover:scale-110"

@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Mail, Linkedin, Github, MapPin, Phone } from "lucide-react";
+import { Mail, Linkedin, Github, MapPin, Phone, Instagram } from "lucide-react";
 
 const Contact = () => {
   const contactInfo = [
@@ -10,18 +10,18 @@ const Contact = () => {
       value: "eliasdanielsanchezlopez@gmail.com",
       href: "mailto:eliasdanielsanchezlopez@gmail.com"
     },
-    {
-      icon: Phone,
-      label: "Phone",
-      value: "(+1) 518 977 2427",
-      href: "tel:+15189772427"
-    },
-    {
-      icon: MapPin,
-      label: "Location",
-      value: "Albany, New York",
-      href: null
-    }
+    // {
+    //   icon: Phone,
+    //   label: "Phone",
+    //   value: "(+1) 518 977 2427",
+    //   href: "tel:+15189772427"
+    // },
+    // {
+    //   icon: MapPin,
+    //   label: "Location",
+    //   value: "Albany, New York",
+    //   href: null
+    // }
   ];
 
   const socialLinks = [
@@ -34,7 +34,13 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com/eliasdsanchez",
+      href: "https://github.com/develiasdaniel",
+      color: "hover:text-foreground"
+    },
+    {
+      icon: Instagram,
+      label: "Instagram",
+      href: "https://www.instagram.com/eeliasdaniel/",
       color: "hover:text-foreground"
     }
   ];
@@ -47,13 +53,13 @@ const Contact = () => {
             Let's <span className="bg-gradient-primary bg-clip-text text-transparent">Connect</span>
           </h2>
           <p className="text-muted-foreground text-lg">
-            I'm always open to discussing new opportunities, collaborations, or research projects
+            I'm always open to discussing new opportunities, collaborations, or projects
           </p>
         </div>
 
         <div className="space-y-6">
           {/* Contact Info Cards */}
-          <div className="grid md:grid-cols-3 gap-4">
+          <div className="grid md:grid-cols-1 gap-4">
             {contactInfo.map((item, index) => (
               <Card 
                 key={index}
@@ -118,7 +124,7 @@ const Contact = () => {
               Interested in collaborating?
             </h3>
             <p className="text-primary-foreground/90 mb-6">
-              Whether it's research, development, or just a tech conversation, 
+              Whether it's web development, research, or just a tech conversation, 
               I'd love to hear from you!
             </p>
             <a href="mailto:eliasdanielsanchezlopez@gmail.com">

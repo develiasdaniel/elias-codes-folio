@@ -9,7 +9,7 @@ const Experience = () => {
       period: "Aug 2025 - Present",
       location: "Albany, NY",
       description: [
-        "Supporting Data Structures (CS 213) course for four student groups",
+        "Supporting Data Structures (CS 213) course for four student groups (60 students)",
         "Conducting programming labs and technical exercises",
         "Mentoring students in core computer science concepts"
       ],
@@ -23,10 +23,10 @@ const Experience = () => {
       description: [
         "Led development of generic logging framework from scratch for centralized service logs",
         "Created custom API Gateway using facade pattern for unified application entry",
-        "Designed scalable solution processing 500,000+ record files",
+        "Designed a scalable solution processing 500,000+ record files for Tax calculation",
         "Implemented cloud architectures with Microsoft Azure services"
       ],
-      skills: ["C#", ".NET Core", "Azure", "Microservices", "API Gateway"]
+      skills: [".NET Core", "Azure Cloud", "C#", "REST", "Redis", "ElasticSearch", "SQL Server"]
     },
     {
       role: "Software Developer",
@@ -38,7 +38,7 @@ const Experience = () => {
         "Led migration from monolithic to microservices architecture",
         "Improved query performance with Elasticsearch (sub-3s response times)"
       ],
-      skills: ["React", "Node.js", "Elasticsearch", "Microservices", "E-commerce"]
+      skills: [".Net", "Azure Cloud", "PostgreSQL", "C#", "React", "Elasticsearch", "Microservices"]
     },
     {
       role: "Junior Software Developer",
@@ -50,7 +50,7 @@ const Experience = () => {
         "Implemented cloud infrastructure reducing on-premise costs",
         "Designed database schemas and REST API endpoints"
       ],
-      skills: ["React Native", "REST API", "Cloud", "Database Design"]
+      skills: ["React Native", ".Net", "REST API", "Cloud", "Database Design"]
     }
   ];
 
