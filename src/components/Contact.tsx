@@ -35,13 +35,13 @@ const Contact = () => {
       icon: Github,
       label: "GitHub",
       href: "https://github.com/develiasdaniel",
-      color: "hover:text-foreground"
+      color: "hover:text-[#0077B5]"
     },
     {
       icon: Instagram,
       label: "Instagram",
       href: "https://www.instagram.com/eeliasdaniel/",
-      color: "hover:text-foreground"
+      color: "hover:text-[#0077B5]"
     }
   ];
 
