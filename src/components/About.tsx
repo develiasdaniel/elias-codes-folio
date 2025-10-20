@@ -2,7 +2,12 @@ import { Card } from "@/components/ui/card";
 import { GraduationCap, Brain, Code, Award } from "lucide-react";
 
 const About = () => {
-  const highlights = [
+  const highlights = [    
+    {
+      icon: Code,
+      title: "Senior Software Engineer",
+      description: "5+ years building scalable solutions with .NET, Azure, React, and REST/microservices architecture.",
+    },
     {
       icon: GraduationCap,
       title: "PhD Student",
@@ -10,18 +15,13 @@ const About = () => {
     },
     {
       icon: Brain,
-      title: "AI Researcher",
-      description: "Published research in Machine Learning, Smart Cities, and Environmental Technologies.",
-    },
-    {
-      icon: Code,
-      title: "Senior Developer",
-      description: "5+ years building scalable solutions with .NET, React, Azure, and microservices architecture.",
+      title: "AI Enthusiast",
+      description: "Research interests include Machine Learning, Smart Cities, and Environmental Technologies.",
     },
     {
       icon: Award,
       title: "Multiple Awards",
-      description: "International hackathon winner, research grantee, and top graduate honors.",
+      description: "International hackathon winner, Multiple scholarship grantee, and top graduate honors.",
     },
   ];
 
@@ -34,7 +34,7 @@ const About = () => {
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
             Passionate about leveraging technology to solve real-world problems through 
-            innovative AI solutions and robust software engineering.
+            robust software engineering and innovative AI solutions.
           </p>
         </div>
 
@@ -61,16 +61,16 @@ const About = () => {
         <Card className="p-8 bg-gradient-card border-border">
           <div className="prose prose-invert max-w-none">
             <p className="text-foreground/90 leading-relaxed mb-4">
-              Currently pursuing my PhD in Computer Science at the University at Albany, SUNY, 
-              where I'm diving deep into Artificial Intelligence research with a full Teaching Assistantship. 
-              My academic journey started at the Institute of Technology of the Valley of Oaxaca, 
-              where I graduated with the highest honors in my class.
+              My professional experience spans leading software development projects at UST Global 
+              to developing innovative solutions at AXITY and BrightCoders. I have architected scalable
+              cloud systems primarily on Azure, optimized e-commerce platforms, 
+              and built APIs and microservices capable of handling hundreds of thousands of records.
             </p>
             <p className="text-foreground/90 leading-relaxed mb-4">
-              My professional experience spans from leading edge development at UST Global to 
-              building innovative solutions at AXITY and BrightCoders. I've architected scalable 
-              cloud solutions, optimized e-commerce platforms, and built microservices that handle 
-              hundreds of thousands of records.
+              Currently pursuing my PhD in Computer Science at the University at Albany, SUNY, where 
+              I'm diving into Artificial Intelligence research with a full Teaching Assistantship. My academic 
+              journey started at the Institute of Technology of the Valley of Oaxaca, 
+              where I graduated with the highest honors in my class.
             </p>
             <p className="text-foreground/90 leading-relaxed">
               Beyond coding, I'm committed to giving back to the tech community through teaching, 

@@ -4,6 +4,20 @@ import { Trophy, Award, Lightbulb } from "lucide-react";
 
 const Projects = () => {
   const projects = [
+    
+    {
+      title: "LLM-Powered Onboarding Generator",
+      category: "Hackathon",
+      icon: Trophy,
+      description: "Interactive system using Large Language Models to generate personalized onboarding requests and workflows.",
+      achievements: [
+        "2nd place in CodeGames hackathon (524 teams worldwide)",
+        "Automated complex onboarding processes",
+        "Integrated cutting-edge LLM technology"
+      ],
+      technologies: ["LLM", "AI", "React", "TypeScript"],
+      award: "2nd Place - CodeGames 2024"
+    },
     {
       title: "Environmental Indicators Analysis System",
       category: "Research - AI/ML",
@@ -43,19 +57,6 @@ const Projects = () => {
       technologies: ["IoT", "Sensors", "React", "Real-time Systems"],
       award: "3rd Place - Oaxaca Entrepreneurship 2019"
     },
-    {
-      title: "LLM-Powered Onboarding Generator",
-      category: "Hackathon",
-      icon: Trophy,
-      description: "Interactive system using Large Language Models to generate personalized onboarding requests and workflows.",
-      achievements: [
-        "2nd place in CodeGames hackathon (524 teams worldwide)",
-        "Automated complex onboarding processes",
-        "Integrated cutting-edge LLM technology"
-      ],
-      technologies: ["LLM", "AI", "React", "TypeScript"],
-      award: "2nd Place - CodeGames 2024"
-    }
   ];
 
   return (
